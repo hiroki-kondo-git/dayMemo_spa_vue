@@ -4,9 +4,6 @@
     <input type="text" placeholder="Username" v-model="email">
     <input type="text" placeholder="Password" v-model="password">
     <button @click="signUp">Resister</button>
-    <p>Do you have an account
-      <router-link to="/signin">sign in now!!</router-link>
-    </p>
   </div>
 </template>
 
